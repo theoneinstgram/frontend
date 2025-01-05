@@ -19,7 +19,7 @@ const InstagramDownloader = () => {
 
     try {
       // Assuming FastDL provides an API endpoint (you'll need to replace with actual)
-      const response = await fetch('https://your-backend-url.com/fastdl-download', {
+      const response = await fetch('https://backend-wkmi.onrender.com/fastdl-download', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
